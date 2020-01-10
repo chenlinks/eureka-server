@@ -1,0 +1,19 @@
+server:
+  port: 8761
+  
+spring:
+  application:
+    name: eureka-server-single
+  security:
+    user:
+      name: admin
+      password: epxing
+
+eureka:
+  server: 
+    enable-self-preservation: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://admin:epxing@localhost:8761/eureka/
