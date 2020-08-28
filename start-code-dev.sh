@@ -5,7 +5,7 @@ img_mvn="maven:3.3.3-jdk-8"                 # docker image of maven
 m2_cache=~/.m2                              # the local maven cache dir
 proj_home=$PWD                              # the project root dir
 img_output="epxing/epxing-eureka"      # output image tag
-project="eureka-service"
+project="eureka-server"
 
 # should use git clone https://name:pwd@xxx.git
 git pull
