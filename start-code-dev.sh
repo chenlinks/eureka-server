@@ -33,7 +33,7 @@ version=`date "+%Y%m%d%H"`
 
 # 启动镜像
 docker run -d --restart=on-failure:5 --privileged=true \
-    -p 8089:8089 \
+    -p 8761:8761 \
     -w /home \
     -v $PWD/logs:/home/logs \
     --name $project $img_output \
