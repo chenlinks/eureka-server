@@ -4,10 +4,6 @@ server:
 spring:
   application:
     name: eureka-server-single
-  security:
-    user:
-      name: admin
-      password: epxing
 
 eureka:
   server: 
@@ -16,4 +12,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://admin:epxing@localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
